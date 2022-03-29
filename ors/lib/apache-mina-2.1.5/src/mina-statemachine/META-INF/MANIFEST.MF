@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1633386777658
+Build-Jdk: 1.8.0_191
+Built-By: elecharny
+Bundle-Description: Apache MINA is a network application framework which
+  helps users develop high performance and highly scalable network appli
+ cations easily.  It provides an abstract event-driven asynchronous API 
+ over various transports such as TCP/IP and UDP/IP via Java NIO.
+Bundle-DocURL: https://mina.apache.org/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache MINA State Machine
+Bundle-SymbolicName: org.apache.mina.statemachine
+Bundle-Vendor: Apache MINA Project
+Bundle-Version: 2.1.5
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.mina.statemachine;version="2.1.5";uses:="org.
+ apache.mina.statemachine.context,org.apache.mina.statemachine.event,org
+ .apache.mina.statemachine.transition",org.apache.mina.statemachine.anno
+ tation;version="2.1.5";uses:="org.apache.mina.statemachine.event",org.a
+ pache.mina.statemachine.context;version="2.1.5";uses:="org.apache.mina.
+ statemachine",org.apache.mina.statemachine.event;version="2.1.5";uses:=
+ "org.apache.mina.statemachine.context",org.apache.mina.statemachine.tra
+ nsition;version="2.1.5";uses:="org.apache.mina.statemachine,org.apache.
+ mina.statemachine.context,org.apache.mina.statemachine.event"
+Import-Package: org.apache.mina.core.session;version="2.1.5";resolution:
+ =optional,org.slf4j;version="1.7",org.apache.mina.core.filterchain;vers
+ ion="2.1.5";resolution:=optional,org.apache.mina.core.service;version="
+ 2.1.5";resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-4.1.0.201810181252
